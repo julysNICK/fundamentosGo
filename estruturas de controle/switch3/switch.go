@@ -7,7 +7,7 @@ import (
 
 func tipo(i interface{
 
-	
+
 }) string {
 	switch i.(type) {
 	case int:
@@ -16,7 +16,7 @@ func tipo(i interface{
 		return "real"
 	case string:
 		return "string"
-	case func():
+	case func():                       
 		return "função"
 	default:
 		return "não sei"
